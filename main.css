@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --maincolor:#545BE8;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 5000px;
+}
+.header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 1.647px 8.237px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+.container{
+    width: calc(100% - 120px) ;
+    margin: auto;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 13.8px 0;
+   flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+header .logo a{
+    color: var(--maincolor);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+header .nav ul{
+    display: flex;
+    gap: 50px;
+    
+}
+
+header .nav ul a{
+    color: #101928;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    
+}
+header nav ul .active{
+    font-weight: 700;
+}
+.header .nav-btn{
+    display: flex;
+    gap: 20px;
+
+}
+.header .nav-btn a{
+    padding: 10.354px 50.181px;
+    font-family: inter;
+
+}
+.header .nav-btn .login{
+    color: var(--maincolor);
+    border: 1px solid var(--maincolor);
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.header .nav-btn .register{
+    color: white;
+    background-color: var(--maincolor);
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+
